@@ -25,3 +25,4 @@ services:
       MYSQL_DATABASE: testdb
     volumes:
       - ./mysql-data:/var/lib/mysql
+      - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
